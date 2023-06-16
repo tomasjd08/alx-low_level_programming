@@ -6,32 +6,37 @@
  */
 int main(void)
 	{
-		int m, i, j;
-
-		for (i = '0'; i <= '9'; i++)
+		int c;
+		int d;
+		int e = 0;
+		
+		while (e < 10)
 		{
-			for (j = '0'; j <= '9'; j++)
+			d = 0;
+			while (d <10)
 			{
-				for (m = '0'; m <= '9'; m++)
+				c = 0;
+				while (c < 10)
 				{
-					if (i < j && j < m)
+					if (c != d && d != e && e < d && d < c)
 					{
-						putchar(i);
-						putchar(j);
-						putchar(m);
-						if (i == '7' && j == '8' && m == '9')
-						{
-							break;
-						}
-						else
+						putchar('0' + e);
+						putchar('0' + d);
+						putchar('0' + c);
+
+						if (c + d + e != 9 + 8 +7)
 						{
 							putchar(',');
-							putchar(' ');
+							putchar(',');
 						}
 					}
+					c++;
 				}
+				d++;
 			}
-			putchar ('\n');
-			return (0);
+			e++;
 		}
+		putchar('\n');
+		return (0);
+	}
 
