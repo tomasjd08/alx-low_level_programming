@@ -1,9 +1,9 @@
 #include <stdio.h>
 	/**
 	 * main-progrtam entry point
+	 * Description: 'hey'
 	 * Return:0 success, non zero fail
 	 */
-
 int main(void)
 	{
 			int m, i, j;
