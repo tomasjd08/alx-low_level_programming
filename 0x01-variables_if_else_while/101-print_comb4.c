@@ -26,7 +26,7 @@ int main(void)
 
 						int sum = c + d + e;
 						int targetSum = 9 + 8 + 7;
-						if (sum !== targetSum)
+						if (sum != targetSum)
 						{
 							putchar(',');
 							putchar(' ');
