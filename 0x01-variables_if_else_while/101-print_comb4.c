@@ -24,8 +24,9 @@ int main(void)
 						putchar('0' + d);
 						putchar('0' + c);
 
-						if (c + d + e != 24)
-
+						const sum = c + d + e;
+						const targetSum = 9 + 8 + 7;
+						if (sum !== targetSum)
 						{
 							putchar(',');
 							putchar(' ');
