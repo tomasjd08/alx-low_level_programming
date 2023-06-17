@@ -9,7 +9,6 @@ int main(void)
 		int c;
 		int d;
 		int e = 0;
-		int targetSum = 24;
 
 		while (e < 10)
 		{
@@ -25,8 +24,7 @@ int main(void)
 						putchar('0' + d);
 						putchar('0' + c);
 
-						int targetSum = 9 + 8 + 7;
-						if ( c + d + e != targetSum)
+						if ( c + d + e != 24)
 						{
 							putchar(',');
 							putchar(' ');
