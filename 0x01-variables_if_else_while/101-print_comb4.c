@@ -9,7 +9,7 @@ int main(void)
 		int c;
 		int d;
 		int e = 0;
-		int targetSum = 9 + 8 + 7;
+		int targetSum = 24;
 
 		while (e < 10)
 		{
