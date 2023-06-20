@@ -6,7 +6,7 @@
  */
 int print_last_digit(int n)
 {
-	%s/\s\+$//e
+	:%s/\s\+$//e
 	int a;	
 
 	if (n < 0)
