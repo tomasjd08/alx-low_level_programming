@@ -2,7 +2,7 @@
 /**
  * _islower - goes here
  * @c: goes here
- * return: 0(alwayes)
+ * Return: Always 0(success)
  */
 
 int _islower(int c)
